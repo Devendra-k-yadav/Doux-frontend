@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Started = () => {
+
   return (
-    <section id='started' className="relative bg-fixed bg-cover bg-center" style={{ backgroundImage: "url('src/assets/bg2.jpg')" }}>
+    <section id='started' className="relative bg-fixed bg-cover bg-center" style={{ backgroundImage: "url('/images/bg2.jpg')" }}>
   {/* <!-- Overlay --> */}
   <div className="absolute inset-0 bg-blue-500/60"></div>
 

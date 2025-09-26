@@ -29,7 +29,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#" className="flex items-start">
             <img
-              src="src/assets/logo-dark.png"
+              src="/images/logo-dark.png"
               alt="logo"
               className="h-10 w-auto"
             />

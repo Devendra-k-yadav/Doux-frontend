@@ -31,7 +31,7 @@ const Header = () => {
       </div>
       {/* right content */}
       <div className="flex justify-center lg:justify-end">
-        <img src="src/assets/svg/4.svg" alt="Hero Image" className  ="w-full max-w-md lg:max-w-lg"/>
+        <img src="/images/svg/4.svg" alt="Hero Image" className  ="w-full max-w-md lg:max-w-lg"/>
       </div>
   </div>
 </div>

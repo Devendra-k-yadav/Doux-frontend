@@ -6,10 +6,10 @@ import {FaFacebookF,
 
 const Team = () => {
   const team = [
-    { name: "Alex Smith", role: "UI/UX Designer", img: "src/assets/team/1.jpg" },
-    { name: "Alex Smith", role: "UI/UX Designer", img: "src/assets/team/2.jpg" },
-    { name: "Alex Smith", role: "UI/UX Designer", img: "src/assets/team/3.jpg" },
-    { name: "Alex Smith", role: "UI/UX Designer", img: "src/assets/team/4.jpg" },
+    { name: "Alex Smith", role: "UI/UX Designer", img: "/images/team/1.jpg" },
+    { name: "Alex Smith", role: "UI/UX Designer", img: "/images/team/2.jpg" },
+    { name: "Alex Smith", role: "UI/UX Designer", img: "/images/team/3.jpg" },
+    { name: "Alex Smith", role: "UI/UX Designer", img: "/images/team/4.jpg" },
   ];
 
   const socials = [

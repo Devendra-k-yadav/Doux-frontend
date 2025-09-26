@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Pricing = () => {
+  
   return (
     <section id='price' className="py-20 bg-gray-100">
       <p className="text-xl text-blue-400 font-semibold ">Pricing Plan</p>

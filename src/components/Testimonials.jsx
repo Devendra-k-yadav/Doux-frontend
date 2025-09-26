@@ -7,25 +7,25 @@ const Testimonials = () => {
     {
       name: "Alex Smith",
       role: "Envato Customer",
-      img: "src/assets/clients/1.jpg",
+      img: "/images/clients/1.jpg",
       text: "Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora.",
     },
     {
       name: "Sam Martin",
       role: "Envato Customer",
-      img: "src/assets/clients/2.jpg",
+      img: "/images/clients/2.jpg",
       text: "Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora.",
     },
     {
       name: "Sam Smith",
       role: "Envato Customer",
-      img: "src/assets/clients/3.jpg",
+      img: "/images/clients/3.jpg",
       text: "Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora.",
     },
     {
       name: "Alex Martin",
       role: "Envato Customer",
-      img: "src/assets/clients/4.jpg",
+      img: "/images/clients/4.jpg",
       text: "Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora.",
     },
   ];

@@ -15,7 +15,7 @@ const Blog = () => {
           {/* Image wrapper */}
           <div className="h-52 relative overflow-hidden">
             <img
-              src="src/assets/blog/1.jpg"
+              src="/images/blog/1.jpg"
               alt="blog1"
               className="w-full h-full object-cover transform transition duration-500 ease-in-out hover:scale-110"
             />
@@ -54,7 +54,7 @@ const Blog = () => {
           {/* Image wrapper */}
           <div className="h-52 relative overflow-hidden">
             <img
-              src="src/assets/blog/2.jpg"
+              src="/images/blog/2.jpg"
               alt="blog2"
               className="w-full h-full object-cover transform transition duration-500 ease-in-out hover:scale-110"
             />
@@ -93,7 +93,7 @@ const Blog = () => {
           {/* Image wrapper */}
           <div className="h-52 relative overflow-hidden">
             <img
-              src="src/assets/blog/3.jpg"
+              src="/images/blog/3.jpg"
               alt="blog3"
               className="w-full h-full object-cover transform transition duration-500 ease-in-out hover:scale-110"
             />

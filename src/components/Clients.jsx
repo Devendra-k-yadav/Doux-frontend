@@ -5,14 +5,14 @@ import { Autoplay } from "swiper/modules";
 
 const Clients = () => {
   const logos = [
-    "src/assets/clients-logo/1.png",
-    "src/assets/clients-logo/2.png",
-    "src/assets/clients-logo/3.png",
-    "src/assets/clients-logo/4.png",
-    "src/assets/clients-logo/5.png",
-    "src/assets/clients-logo/6.png",
-    "src/assets/clients-logo/7.png",
-    "src/assets/clients-logo/8.png",
+    "/images/clients-logo/1.png",
+    "/images/clients-logo/2.png",
+    "/images/clients-logo/3.png",
+    "/images/clients-logo/4.png",
+    "/images/clients-logo/5.png",
+    "/images/clients-logo/6.png",
+    "/images/clients-logo/7.png",
+    "/images/clients-logo/8.png",
   ];
 
   return (

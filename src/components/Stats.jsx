@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Stats = () => {
+  
   return (
 <section id='stats' className="w-screen py-20 ">
      

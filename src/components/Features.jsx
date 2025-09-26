@@ -32,7 +32,7 @@ const Features = () => {
           </div>
           {/* Right Image */}
           <div>
-            <img src="src/assets/svg/1.svg" alt="Feature 1" className="w-full" />
+            <img src="/images/svg/1.svg" alt="Feature 1" className="w-full" />
           </div>
         </div>
 
@@ -40,7 +40,7 @@ const Features = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Image */}
           <div className="order-1 md:order-none">
-            <img src="src/assets/svg/2.svg" alt="Feature 2" className="w-full" />
+            <img src="/images/svg/2.svg" alt="Feature 2" className="w-full" />
           </div>
           {/* Right Content */}
           <div>
@@ -90,7 +90,7 @@ const Features = () => {
           </div>
           {/* Right Image */}
           <div>
-            <img src="src/assets/svg/3.svg" alt="Feature 3" className="w-full" />
+            <img src="/images/svg/3.svg" alt="Feature 3" className="w-full" />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const About = () => {
         {/* Logo + About */}
         <div>
           <a href="#" className="block mb-4">
-            <img src="src/assets/logo-light.png" alt="logo" className="w-32" />
+            <img src="/images/logo-light.png" alt="logo" className="w-32" />
           </a>
           <p className="text-sm leading-relaxed">
             Nulla metus ullamcorper vel tincidunt sed euismod nibh quisque
