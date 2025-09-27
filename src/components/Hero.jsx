@@ -4,44 +4,85 @@ import { TfiGame } from "react-icons/tfi";
 import { TbBrandBitbucket } from "react-icons/tb"
 
 const Hero = () => {
-
   return (
-
-    <section id='hero'   className="w-screen py-20 bg-gray-100">
-        <div className="max-w-6xl mx-auto px-4 text-center">
+    <section id='hero' className="w-screen py-20 bg-gray-100">
+      <div className="max-w-6xl mx-auto px-4 text-center">
+        
+        {/* Heading */}
         <div className="mb-6">
-        <h6 className="text-sm font-semibold text-blue-400">Who we are?</h6>
-        <h4 className="text-2xl font-bold text-gray-800">Doux Provides Great Business Solutions.</h4>
+          <h6 className="text-sm font-semibold text-blue-400">Who we are?</h6>
+          <h4 className="text-2xl font-bold text-gray-800">Doux Provides Great Business Solutions.</h4>
         </div>   
-         <p className="text-gray-600 text-lg leading-relaxed">
-            Nulla metus printing and type setting industry when an unknown printer
-            took ullamcorper vel tincidunt sed euismod nibh Quisque volutpat
-            condimentum velit class aptent taciti sociosqu ad litora.
-          </p>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 '>
-          <div className='bg-white p-6 rounded-lg shadow-md hover:bg-gradient-to-r hover:from-cyan-400 hover:to-blue-600  hover:text-white transition'>
-            <div className="flex justify-center  ">
+
+        {/* Description */}
+        <p className="text-gray-600 text-lg leading-relaxed">
+          Nulla metus printing and type setting industry when an unknown printer
+          took ullamcorper vel tincidunt sed euismod nibh Quisque volutpat
+          condimentum velit class aptent taciti sociosqu ad litora.
+        </p>
+
+        {/* Cards */}
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-12'>
+          
+          {/* Card 1 */}
+          <div 
+            tabIndex="0"
+            className="bg-white p-6 rounded-lg shadow-md transform transition-transform duration-200 ease-out
+                       hover:scale-105 focus:scale-105 active:scale-105
+                       hover:-translate-y-1 focus:-translate-y-1 active:-translate-y-1
+                       hover:bg-gradient-to-r hover:from-cyan-400 hover:to-blue-600 hover:text-white
+                       focus:bg-gradient-to-r focus:from-cyan-400 focus:to-blue-600 focus:text-white
+                       active:bg-gradient-to-r active:from-cyan-400 active:to-blue-600 active:text-white"
+          >
+            <div className="flex justify-center mb-4">
               <TfiDesktop className="w-20 h-20 p-6 bg-blue-500 text-white rounded-full" />
             </div>
             <h5 className='text-lg font-bold mb-2'>Web Development</h5>
-            <p className='text-gray-600'>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum.</p>
+            <p className='text-gray-600'>
+              Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum.
+            </p>
           </div>
-          <div className='bg-white p-6 rounded-lg shadow-md hover:bg-gradient-to-r hover:from-cyan-400 hover:to-blue-600  hover:text-white transition'>
+
+          {/* Card 2 */}
+          <div 
+            tabIndex="0"
+            className="bg-white p-6 rounded-lg shadow-md transform transition-transform duration-200 ease-out
+                       hover:scale-105 focus:scale-105 active:scale-105
+                       hover:-translate-y-1 focus:-translate-y-1 active:-translate-y-1
+                       hover:bg-gradient-to-r hover:from-cyan-400 hover:to-blue-600 hover:text-white
+                       focus:bg-gradient-to-r focus:from-cyan-400 focus:to-blue-600 focus:text-white
+                       active:bg-gradient-to-r active:from-cyan-400 active:to-blue-600 active:text-white"
+          >
             <div className="flex justify-center mb-4">
               <TfiGame className="w-20 h-20 p-6 bg-purple-500 text-white rounded-full" />
             </div>
             <h5 className='text-lg font-bold mb-2'>Web & Mobile Design</h5>
-            <p className='text-gray-600'>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum.</p>
+            <p className='text-gray-600'>
+              Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum.
+            </p>
           </div>
-          <div className='bg-white p-6 rounded-lg  hover:bg-gradient-to-r hover:from-cyan-400 hover:to-blue-600  hover:text-white shadow-md transition'>
+
+          {/* Card 3 */}
+          <div 
+            tabIndex="0"
+            className="bg-white p-6 rounded-lg shadow-md transform transition-transform duration-200 ease-out
+                       hover:scale-105 focus:scale-105 active:scale-105
+                       hover:-translate-y-1 focus:-translate-y-1 active:-translate-y-1
+                       hover:bg-gradient-to-r hover:from-cyan-400 hover:to-blue-600 hover:text-white
+                       focus:bg-gradient-to-r focus:from-cyan-400 focus:to-blue-600 focus:text-white
+                       active:bg-gradient-to-r active:from-cyan-400 active:to-blue-600 active:text-white"
+          >
             <div className="flex justify-center mb-4">
-              <TbBrandBitbucket className="w-20 h-20 p-6 bg-fuchsia-600 rounded-full" />
+              <TbBrandBitbucket className="w-20 h-20 p-6 bg-fuchsia-600 text-white rounded-full" />
             </div>
             <h5 className='text-lg font-bold mb-2'>Branding & Logos</h5>
-            <p className='text-gray-600'>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum.</p>
+            <p className='text-gray-600'>
+              Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum.
+            </p>
           </div>
+
         </div>
-        </div>
+      </div>
     </section>
   )
 }

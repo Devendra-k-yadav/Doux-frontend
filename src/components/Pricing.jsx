@@ -25,9 +25,16 @@ const Pricing = () => {
            <p>Enhanced Security</p>
            <p>Unlimited Support</p>
           </div>
-          <a href="#0" className="inline-block border border-blue-500 text-blue-600 py-3 px-6 rounded hover:bg-blue-500 hover:text-white transition">
-        Getting Started
-      </a>
+          <a
+  href="#0"
+  className="inline-block border border-blue-500 text-blue-600 py-3 px-6 rounded
+             hover:bg-blue-500 hover:text-white hover:scale-105 hover:shadow-md
+             focus:bg-blue-500 focus:text-white focus:scale-105 focus:shadow-md
+             active:bg-blue-500 active:text-white active:scale-105 active:shadow-md
+             transform transition duration-200 ease-out"
+>
+  Getting Started
+</a>
         </div>
 
         {/* Pricing Item 2 */}
@@ -50,9 +57,16 @@ const Pricing = () => {
            <p>Enhanced Security</p>
            <p>Unlimited Support</p>
           </div>
-          <a href="#0" className="inline-block border bg-blue-500 border-blue-500 text-white py-3 px-6 rounded hover:shadow-2xl transition">
-        Getting Started
-      </a>
+          <a
+  href="#0"
+  className="inline-block border bg-blue-500 border-blue-500 text-white py-3 px-6 rounded
+             hover:scale-105 hover:shadow-2xl
+             focus:scale-105 focus:shadow-2xl
+             active:scale-105 active:shadow-2xl
+             transform transition duration-200 ease-out"
+>
+  Getting Started
+</a>
         </div>
 
         {/* Pricing Item 3 */}
@@ -73,9 +87,16 @@ const Pricing = () => {
            <p>Enhanced Security</p>
            <p>Unlimited Support</p>
           </div>
-          <a href="#0" className="inline-block border border-blue-500 text-blue-600 py-3 px-6 rounded hover:bg-blue-500 hover:text-white transition">
-        Getting Started
-      </a>
+          <a
+  href="#0"
+  className="inline-block border border-blue-500 text-blue-600 py-3 px-6 rounded
+             hover:bg-blue-500 hover:text-white hover:scale-105 hover:shadow-md
+             focus:bg-blue-500 focus:text-white focus:scale-105 focus:shadow-md
+             active:bg-blue-500 active:text-white active:scale-105 active:shadow-md
+             transform transition duration-200 ease-out"
+>
+  Getting Started
+</a>
         </div>
       </div>
     </section>

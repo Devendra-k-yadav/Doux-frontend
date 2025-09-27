@@ -1,8 +1,5 @@
 import React from "react";
-import {FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Team = () => {
   const team = [
@@ -19,8 +16,7 @@ const Team = () => {
   ];
 
   return (
-    <section  id="team" className="py-20 bg-white">
-      {/* Section Heading */}
+    <section id="team" className="py-20 bg-white">
       <div className="text-center max-w-2xl mx-auto mb-12">
         <h6 className="text-indigo-500 font-semibold uppercase tracking-wide">
           Creative Minds
@@ -28,12 +24,13 @@ const Team = () => {
         <h2 className="text-4xl font-bold">Our Team</h2>
       </div>
 
-      {/* Team Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
         {team.map((t, i) => (
           <div
             key={i}
-            className="group relative  bg-gray-50 shadow-md rounded-xl overflow-hidden hover:shadow-xl transition duration-300"
+            tabIndex={0}
+            className="group relative bg-gray-50 shadow-md rounded-xl overflow-hidden 
+                       hover:shadow-xl focus:shadow-xl active:shadow-xl transition duration-300"
           >
             {/* Image */}
             <div className="relative">
@@ -42,17 +39,20 @@ const Team = () => {
                 alt={t.name}
                 className="w-full h-64 object-cover"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/40 flex items-center justify-center gap-3 
-                              opacity-0 group-hover:opacity-100 transition duration-500">
+              <div className="absolute bottom-0 left-0 right-0 bg-black/40 flex items-center justify-center gap-3
+                              opacity-0 group-hover:opacity-100 focus:opacity-100 active:opacity-100
+                              transition-all duration-500">
                 {socials.map((s, j) => (
                   <a
                     key={j}
                     href="#"
-                    className={`w-10 h-10 flex items-center justify-center bg-white ${s.color} rounded-full hover:scale-110 transition-transform
-                                opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0`}
+                    className={`w-10 h-10 flex items-center justify-center bg-white ${s.color} rounded-full 
+                                hover:scale-110 focus:scale-110 active:scale-110
+                                opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0
+                                focus:opacity-100 focus:translate-y-0 active:opacity-100 active:translate-y-0
+                                transition-all duration-500`}
                     style={{
-                      transitionDelay: `${j * 150}ms`, 
-                      transitionDuration: "500ms",
+                      transitionDelay: `${j * 150}ms`,
                     }}
                   >
                     {s.icon}
@@ -64,9 +64,7 @@ const Team = () => {
             {/* Info */}
             <div className="p-6 text-center">
               <h6 className="text-lg font-semibold">{t.name}</h6>
-              <span className="block text-sm text-gray-500 mb-4">
-                {t.role}
-              </span>
+              <span className="block text-sm text-gray-500 mb-4">{t.role}</span>
             </div>
           </div>
         ))}
